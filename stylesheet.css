@@ -81,6 +81,9 @@
   border: 2px solid #bbfeb1;
   box-shadow: 0 0 0px 1px #42f112, 0 0 10px 2px #33fd30, inset 0 0 0px 1px #42f112, inset 0 0 10px 2px #33fd30;
   transition: 100ms;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer; 
 }
 
 .btn:hover {
