@@ -1,14 +1,17 @@
-  .background {
+body {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.background {
     background-color: #000000;
     color: #00ff00;
     font-family: "Courier New", Courier, monospace;
     font-size: 1em;
     padding: 1.5em 1em;
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-  }
-
+    box-sizing: border-box; /* Ensure padding is included in the element's width/height */
+    width: 100%; /* Allow it to fill the viewport without exceeding */
+    height: auto; /* Let the height adjust dynamically */
+    min-height: 100vh; /* Ensure it takes full screen height if content is small */
   /* button */ 
 .togglesw {
     --s: 50px;
