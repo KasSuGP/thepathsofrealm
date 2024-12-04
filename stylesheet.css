@@ -15,10 +15,10 @@ body {
 }
 
 /* Image styling */
-img {
+.icon {
   max-width: 90%; /* Ensure image doesn't overflow horizontally */
   height: auto; /* Maintain aspect ratio */
-  margin-top: 0.1em; /* Reduce space between text and image */
+  margin-top: 1em; /* Reduce space between text and image */
   margin-bottom: 0.1em; /* Reduce space between image and button */
 }
 /* button */ 
@@ -70,7 +70,6 @@ img {
 display: flex; /* Use Flexbox */
 flex-direction: column; /* Stack items vertically */
 align-items: center; /* Center items horizontally */ /* Center items vertically */
- /*height: 40vh;  Full viewport height */
 }
 
 /* Style the image */
